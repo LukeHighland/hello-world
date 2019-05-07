@@ -1,6 +1,15 @@
+import java.util.Date;
+/**
+ *
+ *
+ * 5/06/2019
+ * @author Luke Highland
+**/
 public class HelloWorld {
 
-    public void HelloWorld() {
-        System.out.println("Hello world!")
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        System.out.println(new Date());
+
     }
 }
